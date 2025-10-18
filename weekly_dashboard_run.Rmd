@@ -1,0 +1,25 @@
+---
+title: "weekly_dashboard_run"
+author: "Hans-Kristof Nelson"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+# Weekly Dashboard Runner (Template)
+
+# Load and run main fetch script
+source("data_fetch_gtrendsr_V3.R")
+
+# Example: Combine outputs into dashboard dataset
+# dash_data <- bind_rows(master_city_final)
+
+# Save to outputs folder
+# saveRDS(dash_data, file.path("data_processed", paste0("dashboard_data_", Sys.Date(), ".rds")))
+
+message("✅ Weekly dashboard run completed successfully.")
+```

@@ -1,0 +1,18 @@
+# R project ignores
+.Rhistory
+.RData
+.Rproj.user
+.Ruserdata
+.Rproj
+*.Rproj
+.DS_Store
+
+# Data files
+data_raw/
+data_processed/
+outputs/
+logs/
+
+# System files
+*.tmp
+*.zip
